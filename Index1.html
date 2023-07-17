@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet"
+		href="style.css">
+	
+</head>
+
+<body>
+
+	<div class="main-container">
+		<div class="navcontainer">
+			<nav class="nav">
+				<div class="nav-upper-options">
+                    <div class="logosec">
+						<div class="logo">Chaabi</div>
+						
+					</div>
+
+					<div class="nav-option option1">
+						
+							
+						<h3> Dashboard</h3>
+					</div>
+
+					<div class="option2 nav-option">
+						
+							
+						<h3> Trainings</h3>
+					</div>
+
+					<div class="nav-option option3">
+						
+						<h3> Users</h3>
+					</div>
+
+					<div class="nav-option option4">
+						
+						<h3> Analytics</h3>
+					</div>
+
+					<div class="nav-option option5">
+						
+						<h3> My Account</h3>
+					</div>
+
+					<div class="nav-option option6">
+						
+						<h3> Support</h3>
+					</div>
+
+					
+
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+
+		
+
+			<div class="box-container">
+				<div class="Fbox">
+					<div class="text">
+						<h1 class="topic">Hello, Puneet Dhiman</h1>
+						<p>Following is your organization's performance summary</p>
+					</div>
+				</div>
+
+				<div class="box box1">
+					<div class="text">
+						<h2 class="topic-heading">In Trainings Work</h2>
+						<h2 class="topic">3,354</h2>
+						<img src="https://www.google.com/search?rlz=1C1CHBF_enIN1045IN1045&sxsrf=AB5stBijWYwwnUwLNNlqsecyeCefI503qw:1689324797103&q=graph+picture&tbm=isch&sa=X&sqi=2&ved=2ahUKEwiw6cOj6Y2AAxVeT2wGHZ5-DLEQ0pQJegQIDBAB&biw=1280&bih=609&dpr=1.5#imgrc=lj4S6ZKJLjs5ZM" alt="Graph">
+					</div>
+				</div>
+
+				<div class="box box2">
+					<div class="text">
+						<h2 class="topic-heading">Video Watch Time(Hrs)</h2>
+						<h2 class="topic">2,433</h2>
+						<img src="https://www.google.com/search?rlz=1C1CHBF_enIN1045IN1045&sxsrf=AB5stBijWYwwnUwLNNlqsecyeCefI503qw:1689324797103&q=graph+picture&tbm=isch&sa=X&sqi=2&ved=2ahUKEwiw6cOj6Y2AAxVeT2wGHZ5-DLEQ0pQJegQIDBAB&biw=1280&bih=609&dpr=1.5#imgrc=lj4S6ZKJLjs5ZM" alt="Graph">
+					</div>
+
+					
+				</div>
+
+				<div class="box box3">
+					<div class="text">
+						<h2 class="topic-heading">% Work Passing Quiz</h2>
+						<h2 class="topic">95%</h2>
+						<img src="https://www.google.com/search?rlz=1C1CHBF_enIN1045IN1045&sxsrf=AB5stBijWYwwnUwLNNlqsecyeCefI503qw:1689324797103&q=graph+picture&tbm=isch&sa=X&sqi=2&ved=2ahUKEwiw6cOj6Y2AAxVeT2wGHZ5-DLEQ0pQJegQIDBAB&biw=1280&bih=609&dpr=1.5#imgrc=lj4S6ZKJLjs5ZM" alt="Graph">
+					</div>
+				</div>
+
+				<div class="box box4">
+					<div class="text">
+						<h2 class="topic-heading">Avg. Days Taken</h2>
+						<h2 class="topic">6</h2>
+						<img src="https://www.google.com/search?rlz=1C1CHBF_enIN1045IN1045&sxsrf=AB5stBijWYwwnUwLNNlqsecyeCefI503qw:1689324797103&q=graph+picture&tbm=isch&sa=X&sqi=2&ved=2ahUKEwiw6cOj6Y2AAxVeT2wGHZ5-DLEQ0pQJegQIDBAB&biw=1280&bih=609&dpr=1.5#imgrc=lj4S6ZKJLjs5ZM" alt="Graph">
+					</div>
+
+				</div>
+                <div class="box box5">
+					<div class="text">
+						<h2 class="topic-heading">Chapter Wise Status</h2>
+						
+						
+					</div>
+					<div id="mychart"></div>
+
+				</div>
+
+                <div class="box box6">
+					<div class="text">
+						<!-- <h2 class="topic-heading">Last 14 days work of training</h2> -->
+						
+					</div>
+					<table id="q-graph">
+						<caption>Last 14 days work of training</caption>
+						<!-- <thead> -->
+						  <!-- <tr> -->
+							<th></th>
+							<!-- <th class="sent">Invoiced</th> -->
+							<!-- <th class="paid">Collected</th> -->
+						  <!-- </tr> -->
+						<!-- </thead> -->
+						<tbody>
+						  <tr class="qtr" id="q1">
+							<th scope="row">3jun</th>
+							<td class="sent bar"><p>100</p></td>
+							<!-- <td class="paid bar"><p>$16,500.00</p></td> -->
+						  </tr>
+						  <tr class="qtr" id="q2">
+							<th scope="row">4jun</th>
+							<td class="sent bar"><p>120</p></td>
+							<!-- <td class="paid bar"><p>$32,340.72</p></td> -->
+						  </tr>
+						  <tr class="qtr" id="q3">
+							<th scope="row">5jun</th>
+							<td class="sent bar"><p>100</p></td>
+							<!-- <td class="paid bar"><p>$32,225.52</p></td> -->
+						  </tr>
+						  <tr class="qtr" id="q4">
+							<th scope="row">6jun</th>
+							<td class="sent bar"><p>200</p></td>
+							<!-- <td class="paid bar"><p>$32,425.00</p></td> -->
+						  </tr>
+						</tbody>
+					  </table>
+
+				</div>
+
+                <div class="box box7">
+					<div class="text">
+						<h2 class="topic-heading">Monthly Training Activity</h2>
+						<p>Up arrow: <i class="up"></i></p>
+						<p>16% more enrollees this month</p>
+						
+					</div>
+
+				</div>
+
+                <div class="box box8">
+					<div class="text">
+						<h2 class="topic-heading">Quiz passing %</h2>
+						
+					</div>
+
+				</div>
+
+                <div class="box box9">
+					<div class="text">
+						<h2 class="topic-heading">Daily Training completions    Last 7 Days </h2>
+						
+					</div>
+
+				</div>
+			</div>
+
+			
+            
+    
+
+	</div>
+
+	
+</body>
+</html>
